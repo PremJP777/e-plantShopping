@@ -19,7 +19,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-background-color: lightgrey;
+  /* background-color: lightgrey; */
+  background-image: url("https://images.jdmagicbox.com/comp/cumbum/r7/9999p4554.4554.230112121608.c2r7/catalogue/paradise-nursery-garden-cumbum-plant-nurseries-pbc6id0rlr.jpg");
 }
 
 .content {
@@ -28,15 +29,15 @@ background-color: lightgrey;
   justify-content: center;
   height: 100vh;
   width: 100vw;
- top: 100px;
+  top: 100px;
   backdrop-filter: blur(4px);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   gap: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
+  margin-top: 430px;
+  margin-left: 220px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
