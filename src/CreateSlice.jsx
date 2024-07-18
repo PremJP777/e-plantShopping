@@ -26,8 +26,9 @@ export const CreateSlice = createSlice({
       const {name,quantity}=action.payload;
       const existing=state.items.find((plant)=>plant.name===name);
       if(existing){
+        let updateCost=quantity-existing.quantity;
         existing.quantity=quantity;
-        state.totalQuantity+=quantity;
+        state.totalQuantity+=updateCost;
       } 
     },
   },
